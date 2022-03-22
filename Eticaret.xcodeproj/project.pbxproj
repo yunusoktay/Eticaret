@@ -14,6 +14,11 @@
 		803DB3E527EA35A900CC5BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 803DB3E427EA35A900CC5BED /* Assets.xcassets */; };
 		803DB3E827EA35A900CC5BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803DB3E627EA35A900CC5BED /* LaunchScreen.storyboard */; };
 		803DB3F127EA371F00CC5BED /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB3F027EA371F00CC5BED /* BaseViewController.swift */; };
+		803DB3F427EA389D00CC5BED /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB3F327EA389D00CC5BED /* ProductsVC.swift */; };
+		803DB3F727EA391D00CC5BED /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB3F627EA391D00CC5BED /* Network.swift */; };
+		803DB3F927EA392F00CC5BED /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB3F827EA392F00CC5BED /* RequestType.swift */; };
+		803DB3FB27EA393F00CC5BED /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB3FA27EA393F00CC5BED /* HttpMethod.swift */; };
+		803DB3FD27EA395B00CC5BED /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB3FC27EA395B00CC5BED /* Responses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		803DB3E727EA35A900CC5BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		803DB3E927EA35A900CC5BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		803DB3F027EA371F00CC5BED /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		803DB3F327EA389D00CC5BED /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		803DB3F627EA391D00CC5BED /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		803DB3F827EA392F00CC5BED /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
+		803DB3FA27EA393F00CC5BED /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		803DB3FC27EA395B00CC5BED /* Responses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,8 @@
 		803DB3DA27EA35A800CC5BED /* Eticaret */ = {
 			isa = PBXGroup;
 			children = (
+				803DB3F527EA390700CC5BED /* Network */,
+				803DB3F227EA387A00CC5BED /* ViewController */,
 				803DB3EF27EA370100CC5BED /* Base */,
 				803DB3DB27EA35A800CC5BED /* AppDelegate.swift */,
 				803DB3DD27EA35A800CC5BED /* SceneDelegate.swift */,
@@ -76,6 +88,25 @@
 				803DB3F027EA371F00CC5BED /* BaseViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		803DB3F227EA387A00CC5BED /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				803DB3F327EA389D00CC5BED /* ProductsVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		803DB3F527EA390700CC5BED /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				803DB3F627EA391D00CC5BED /* Network.swift */,
+				803DB3F827EA392F00CC5BED /* RequestType.swift */,
+				803DB3FA27EA393F00CC5BED /* HttpMethod.swift */,
+				803DB3FC27EA395B00CC5BED /* Responses.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +180,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				803DB3FD27EA395B00CC5BED /* Responses.swift in Sources */,
+				803DB3F427EA389D00CC5BED /* ProductsVC.swift in Sources */,
 				803DB3E027EA35A800CC5BED /* ViewController.swift in Sources */,
+				803DB3F927EA392F00CC5BED /* RequestType.swift in Sources */,
+				803DB3F727EA391D00CC5BED /* Network.swift in Sources */,
+				803DB3FB27EA393F00CC5BED /* HttpMethod.swift in Sources */,
 				803DB3F127EA371F00CC5BED /* BaseViewController.swift in Sources */,
 				803DB3DC27EA35A800CC5BED /* AppDelegate.swift in Sources */,
 				803DB3DE27EA35A800CC5BED /* SceneDelegate.swift in Sources */,
