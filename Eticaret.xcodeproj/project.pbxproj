@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A8617733514A7C67C994040 /* Pods_Eticaret.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB021D07874E7C0A18ADAE3E /* Pods_Eticaret.framework */; };
 		803DB3DC27EA35A800CC5BED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB3DB27EA35A800CC5BED /* AppDelegate.swift */; };
 		803DB3DE27EA35A800CC5BED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB3DD27EA35A800CC5BED /* SceneDelegate.swift */; };
-		803DB3E027EA35A800CC5BED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB3DF27EA35A800CC5BED /* ViewController.swift */; };
 		803DB3E327EA35A800CC5BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803DB3E127EA35A800CC5BED /* Main.storyboard */; };
 		803DB3E527EA35A900CC5BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 803DB3E427EA35A900CC5BED /* Assets.xcassets */; };
 		803DB3E827EA35A900CC5BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803DB3E627EA35A900CC5BED /* LaunchScreen.storyboard */; };
@@ -19,13 +19,26 @@
 		803DB3F927EA392F00CC5BED /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB3F827EA392F00CC5BED /* RequestType.swift */; };
 		803DB3FB27EA393F00CC5BED /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB3FA27EA393F00CC5BED /* HttpMethod.swift */; };
 		803DB3FD27EA395B00CC5BED /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB3FC27EA395B00CC5BED /* Responses.swift */; };
+		8069378E27EB383900E2B597 /* montserrat_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8069378627EB383900E2B597 /* montserrat_medium.ttf */; };
+		8069378F27EB383900E2B597 /* montserrat_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8069378727EB383900E2B597 /* montserrat_regular.ttf */; };
+		8069379027EB383900E2B597 /* montserrat_extra_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8069378827EB383900E2B597 /* montserrat_extra_bold.ttf */; };
+		8069379127EB383900E2B597 /* montserrat_semi_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8069378927EB383900E2B597 /* montserrat_semi_bold.ttf */; };
+		8069379227EB383900E2B597 /* montserrat_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8069378A27EB383900E2B597 /* montserrat_light.ttf */; };
+		8069379327EB383900E2B597 /* montserrat_black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8069378B27EB383900E2B597 /* montserrat_black.ttf */; };
+		8069379427EB383900E2B597 /* montserrat_thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8069378C27EB383900E2B597 /* montserrat_thin.ttf */; };
+		8069379527EB383900E2B597 /* montserrat_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8069378D27EB383900E2B597 /* montserrat_bold.ttf */; };
+		8069379827EB3BB600E2B597 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069379627EB3BB600E2B597 /* ProductCell.swift */; };
+		8069379927EB3BB600E2B597 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8069379727EB3BB600E2B597 /* ProductCell.xib */; };
+		8069379C27EB434E00E2B597 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069379B27EB434E00E2B597 /* Int+Extension.swift */; };
+		8069379E27EB446200E2B597 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069379D27EB446200E2B597 /* UILabel+Extension.swift */; };
+		806937A027EB463900E2B597 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069379F27EB463900E2B597 /* UIImageView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74AB98D9A7F532F0EFECC77C /* Pods-Eticaret.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eticaret.release.xcconfig"; path = "Target Support Files/Pods-Eticaret/Pods-Eticaret.release.xcconfig"; sourceTree = "<group>"; };
 		803DB3D827EA35A800CC5BED /* Eticaret.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eticaret.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		803DB3DB27EA35A800CC5BED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		803DB3DD27EA35A800CC5BED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		803DB3DF27EA35A800CC5BED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		803DB3E227EA35A800CC5BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		803DB3E427EA35A900CC5BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		803DB3E727EA35A900CC5BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +49,21 @@
 		803DB3F827EA392F00CC5BED /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
 		803DB3FA27EA393F00CC5BED /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		803DB3FC27EA395B00CC5BED /* Responses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responses.swift; sourceTree = "<group>"; };
+		8069378627EB383900E2B597 /* montserrat_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = montserrat_medium.ttf; sourceTree = "<group>"; };
+		8069378727EB383900E2B597 /* montserrat_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = montserrat_regular.ttf; sourceTree = "<group>"; };
+		8069378827EB383900E2B597 /* montserrat_extra_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = montserrat_extra_bold.ttf; sourceTree = "<group>"; };
+		8069378927EB383900E2B597 /* montserrat_semi_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = montserrat_semi_bold.ttf; sourceTree = "<group>"; };
+		8069378A27EB383900E2B597 /* montserrat_light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = montserrat_light.ttf; sourceTree = "<group>"; };
+		8069378B27EB383900E2B597 /* montserrat_black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = montserrat_black.ttf; sourceTree = "<group>"; };
+		8069378C27EB383900E2B597 /* montserrat_thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = montserrat_thin.ttf; sourceTree = "<group>"; };
+		8069378D27EB383900E2B597 /* montserrat_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = montserrat_bold.ttf; sourceTree = "<group>"; };
+		8069379627EB3BB600E2B597 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		8069379727EB3BB600E2B597 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		8069379B27EB434E00E2B597 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		8069379D27EB446200E2B597 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		8069379F27EB463900E2B597 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		8939257103AAFB0A21537ACD /* Pods-Eticaret.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eticaret.debug.xcconfig"; path = "Target Support Files/Pods-Eticaret/Pods-Eticaret.debug.xcconfig"; sourceTree = "<group>"; };
+		DB021D07874E7C0A18ADAE3E /* Pods_Eticaret.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eticaret.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +71,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8617733514A7C67C994040 /* Pods_Eticaret.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B3D455AFA94654C3E01845B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB021D07874E7C0A18ADAE3E /* Pods_Eticaret.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51FB7BFE8C179E9FF71BB635 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8939257103AAFB0A21537ACD /* Pods-Eticaret.debug.xcconfig */,
+				74AB98D9A7F532F0EFECC77C /* Pods-Eticaret.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		803DB3CF27EA35A800CC5BED = {
 			isa = PBXGroup;
 			children = (
 				803DB3DA27EA35A800CC5BED /* Eticaret */,
 				803DB3D927EA35A800CC5BED /* Products */,
+				51FB7BFE8C179E9FF71BB635 /* Pods */,
+				1B3D455AFA94654C3E01845B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,12 +116,14 @@
 		803DB3DA27EA35A800CC5BED /* Eticaret */ = {
 			isa = PBXGroup;
 			children = (
+				8069379A27EB432F00E2B597 /* Extension */,
+				8069378527EB383900E2B597 /* Font */,
+				8069377E27EB37DB00E2B597 /* Cell */,
 				803DB3F527EA390700CC5BED /* Network */,
 				803DB3F227EA387A00CC5BED /* ViewController */,
 				803DB3EF27EA370100CC5BED /* Base */,
 				803DB3DB27EA35A800CC5BED /* AppDelegate.swift */,
 				803DB3DD27EA35A800CC5BED /* SceneDelegate.swift */,
-				803DB3DF27EA35A800CC5BED /* ViewController.swift */,
 				803DB3E127EA35A800CC5BED /* Main.storyboard */,
 				803DB3E427EA35A900CC5BED /* Assets.xcassets */,
 				803DB3E627EA35A900CC5BED /* LaunchScreen.storyboard */,
@@ -109,6 +159,40 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		8069377E27EB37DB00E2B597 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8069379627EB3BB600E2B597 /* ProductCell.swift */,
+				8069379727EB3BB600E2B597 /* ProductCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8069378527EB383900E2B597 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8069378627EB383900E2B597 /* montserrat_medium.ttf */,
+				8069378727EB383900E2B597 /* montserrat_regular.ttf */,
+				8069378827EB383900E2B597 /* montserrat_extra_bold.ttf */,
+				8069378927EB383900E2B597 /* montserrat_semi_bold.ttf */,
+				8069378A27EB383900E2B597 /* montserrat_light.ttf */,
+				8069378B27EB383900E2B597 /* montserrat_black.ttf */,
+				8069378C27EB383900E2B597 /* montserrat_thin.ttf */,
+				8069378D27EB383900E2B597 /* montserrat_bold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		8069379A27EB432F00E2B597 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8069379B27EB434E00E2B597 /* Int+Extension.swift */,
+				8069379D27EB446200E2B597 /* UILabel+Extension.swift */,
+				8069379F27EB463900E2B597 /* UIImageView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 803DB3EC27EA35A900CC5BED /* Build configuration list for PBXNativeTarget "Eticaret" */;
 			buildPhases = (
+				8D579E938AF903597F844557 /* [CP] Check Pods Manifest.lock */,
 				803DB3D427EA35A800CC5BED /* Sources */,
 				803DB3D527EA35A800CC5BED /* Frameworks */,
 				803DB3D627EA35A800CC5BED /* Resources */,
+				9E661B0D550BC7780C508634 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,13 +253,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8069379127EB383900E2B597 /* montserrat_semi_bold.ttf in Resources */,
+				8069378F27EB383900E2B597 /* montserrat_regular.ttf in Resources */,
+				8069379527EB383900E2B597 /* montserrat_bold.ttf in Resources */,
 				803DB3E827EA35A900CC5BED /* LaunchScreen.storyboard in Resources */,
+				8069379427EB383900E2B597 /* montserrat_thin.ttf in Resources */,
+				8069379227EB383900E2B597 /* montserrat_light.ttf in Resources */,
+				8069379327EB383900E2B597 /* montserrat_black.ttf in Resources */,
 				803DB3E527EA35A900CC5BED /* Assets.xcassets in Resources */,
+				8069379027EB383900E2B597 /* montserrat_extra_bold.ttf in Resources */,
+				8069379927EB3BB600E2B597 /* ProductCell.xib in Resources */,
 				803DB3E327EA35A800CC5BED /* Main.storyboard in Resources */,
+				8069378E27EB383900E2B597 /* montserrat_medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D579E938AF903597F844557 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eticaret-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E661B0D550BC7780C508634 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eticaret/Pods-Eticaret-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eticaret/Pods-Eticaret-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eticaret/Pods-Eticaret-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		803DB3D427EA35A800CC5BED /* Sources */ = {
@@ -182,11 +319,14 @@
 			files = (
 				803DB3FD27EA395B00CC5BED /* Responses.swift in Sources */,
 				803DB3F427EA389D00CC5BED /* ProductsVC.swift in Sources */,
-				803DB3E027EA35A800CC5BED /* ViewController.swift in Sources */,
+				806937A027EB463900E2B597 /* UIImageView+Extension.swift in Sources */,
 				803DB3F927EA392F00CC5BED /* RequestType.swift in Sources */,
 				803DB3F727EA391D00CC5BED /* Network.swift in Sources */,
+				8069379C27EB434E00E2B597 /* Int+Extension.swift in Sources */,
 				803DB3FB27EA393F00CC5BED /* HttpMethod.swift in Sources */,
 				803DB3F127EA371F00CC5BED /* BaseViewController.swift in Sources */,
+				8069379E27EB446200E2B597 /* UILabel+Extension.swift in Sources */,
+				8069379827EB3BB600E2B597 /* ProductCell.swift in Sources */,
 				803DB3DC27EA35A800CC5BED /* AppDelegate.swift in Sources */,
 				803DB3DE27EA35A800CC5BED /* SceneDelegate.swift in Sources */,
 			);
@@ -330,6 +470,7 @@
 		};
 		803DB3ED27EA35A900CC5BED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8939257103AAFB0A21537ACD /* Pods-Eticaret.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -358,6 +499,7 @@
 		};
 		803DB3EE27EA35A900CC5BED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74AB98D9A7F532F0EFECC77C /* Pods-Eticaret.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
