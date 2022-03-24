@@ -19,6 +19,9 @@
 		803DB3F927EA392F00CC5BED /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB3F827EA392F00CC5BED /* RequestType.swift */; };
 		803DB3FB27EA393F00CC5BED /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB3FA27EA393F00CC5BED /* HttpMethod.swift */; };
 		803DB3FD27EA395B00CC5BED /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803DB3FC27EA395B00CC5BED /* Responses.swift */; };
+		8042194B27EC91B700658CF9 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042194927EC91B700658CF9 /* ProductDetailVC.swift */; };
+		8042194C27EC91B700658CF9 /* ProductDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8042194A27EC91B700658CF9 /* ProductDetailVC.xib */; };
+		8042194E27EC95EC00658CF9 /* Button+Extenison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042194D27EC95EC00658CF9 /* Button+Extenison.swift */; };
 		8069378E27EB383900E2B597 /* montserrat_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8069378627EB383900E2B597 /* montserrat_medium.ttf */; };
 		8069378F27EB383900E2B597 /* montserrat_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8069378727EB383900E2B597 /* montserrat_regular.ttf */; };
 		8069379027EB383900E2B597 /* montserrat_extra_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8069378827EB383900E2B597 /* montserrat_extra_bold.ttf */; };
@@ -49,6 +52,9 @@
 		803DB3F827EA392F00CC5BED /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
 		803DB3FA27EA393F00CC5BED /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		803DB3FC27EA395B00CC5BED /* Responses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responses.swift; sourceTree = "<group>"; };
+		8042194927EC91B700658CF9 /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
+		8042194A27EC91B700658CF9 /* ProductDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailVC.xib; sourceTree = "<group>"; };
+		8042194D27EC95EC00658CF9 /* Button+Extenison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Extenison.swift"; sourceTree = "<group>"; };
 		8069378627EB383900E2B597 /* montserrat_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = montserrat_medium.ttf; sourceTree = "<group>"; };
 		8069378727EB383900E2B597 /* montserrat_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = montserrat_regular.ttf; sourceTree = "<group>"; };
 		8069378827EB383900E2B597 /* montserrat_extra_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = montserrat_extra_bold.ttf; sourceTree = "<group>"; };
@@ -143,6 +149,7 @@
 		803DB3F227EA387A00CC5BED /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8042194827EC917800658CF9 /* ProductDetail */,
 				803DB3F327EA389D00CC5BED /* ProductsVC.swift */,
 			);
 			path = ViewController;
@@ -157,6 +164,15 @@
 				803DB3FC27EA395B00CC5BED /* Responses.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		8042194827EC917800658CF9 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8042194927EC91B700658CF9 /* ProductDetailVC.swift */,
+				8042194A27EC91B700658CF9 /* ProductDetailVC.xib */,
+			);
+			path = ProductDetail;
 			sourceTree = "<group>";
 		};
 		8069377E27EB37DB00E2B597 /* Cell */ = {
@@ -189,6 +205,7 @@
 				8069379B27EB434E00E2B597 /* Int+Extension.swift */,
 				8069379D27EB446200E2B597 /* UILabel+Extension.swift */,
 				8069379F27EB463900E2B597 /* UIImageView+Extension.swift */,
+				8042194D27EC95EC00658CF9 /* Button+Extenison.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -265,6 +282,7 @@
 				8069379927EB3BB600E2B597 /* ProductCell.xib in Resources */,
 				803DB3E327EA35A800CC5BED /* Main.storyboard in Resources */,
 				8069378E27EB383900E2B597 /* montserrat_medium.ttf in Resources */,
+				8042194C27EC91B700658CF9 /* ProductDetailVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +346,8 @@
 				8069379E27EB446200E2B597 /* UILabel+Extension.swift in Sources */,
 				8069379827EB3BB600E2B597 /* ProductCell.swift in Sources */,
 				803DB3DC27EA35A800CC5BED /* AppDelegate.swift in Sources */,
+				8042194E27EC95EC00658CF9 /* Button+Extenison.swift in Sources */,
+				8042194B27EC91B700658CF9 /* ProductDetailVC.swift in Sources */,
 				803DB3DE27EA35A800CC5BED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
