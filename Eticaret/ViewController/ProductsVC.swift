@@ -63,6 +63,11 @@ extension ProductsVC: UICollectionViewDelegate, UICollectionViewDataSource {
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let product = products[indexPath.item]
+        let prodDetailVC = ProductDetailVC(product: product)
+        navigationController?.pushViewController(prodDetailVC, animated: true)
+    }
     
 }
 
