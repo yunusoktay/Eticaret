@@ -38,7 +38,8 @@ class ProductDetailVC: BaseViewController {
     }
 
     @IBAction func whichStoreAction(_ sender: Any) {
-        
+        let mapVC = MapVC()
+        self.navigationController?.pushViewController(mapVC, animated: true)
     }
     
     @IBAction func addToCartAction(_ sender: Any) {
