@@ -42,8 +42,34 @@ class ProductDetailVC: BaseViewController {
         self.navigationController?.pushViewController(mapVC, animated: true)
     }
     
-    @IBAction func addToCartAction(_ sender: Any) {
+    @IBAction func addToCartAction(_ sender: UIButton) {
+        let network = Network()
+        guard let id = product?.id else {return}
+        network.request(with: .addToCart(id: id)) { (result: Result<BaseResponse<CartResponse>, CustomError>) in
+            switch result {
+            case .success(let success):
+                if success.statusCode == 200 {
+                    self.cartSucces()
+                }
+            case .failure(let failure):
+                print("Sepet Hatası \(failure.message)")
+            }
+        }
+        
     }
     
+    func cartSucces() {
+        DispatchQueue.main.async {
+            let popup  = PopUpVC(text: "Sepete Eklendi", buttonTitle: "Anasayfaya git", doneAction: self.popUpAction)
+            popup.modalPresentationStyle = .overCurrentContext
+            popup.modalTransitionStyle = .crossDissolve
+            self.navigationController?.present(popup, animated: false)
+        }
+    }
     
+    func popUpAction() {
+        self.navigationController?.popToRootViewController(animated: true)
+    }
+    
+
 }

@@ -24,6 +24,8 @@
 		8042194E27EC95EC00658CF9 /* Button+Extenison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042194D27EC95EC00658CF9 /* Button+Extenison.swift */; };
 		8042195227EC9B5300658CF9 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042195027EC9B5300658CF9 /* MapVC.swift */; };
 		8042195327EC9B5300658CF9 /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8042195127EC9B5300658CF9 /* MapVC.xib */; };
+		8042196027ECC7D700658CF9 /* PopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8042195E27ECC7D700658CF9 /* PopUpVC.swift */; };
+		8042196127ECC7D700658CF9 /* PopUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8042195F27ECC7D700658CF9 /* PopUpVC.xib */; };
 		8069378E27EB383900E2B597 /* montserrat_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8069378627EB383900E2B597 /* montserrat_medium.ttf */; };
 		8069378F27EB383900E2B597 /* montserrat_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8069378727EB383900E2B597 /* montserrat_regular.ttf */; };
 		8069379027EB383900E2B597 /* montserrat_extra_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8069378827EB383900E2B597 /* montserrat_extra_bold.ttf */; };
@@ -59,6 +61,8 @@
 		8042194D27EC95EC00658CF9 /* Button+Extenison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Extenison.swift"; sourceTree = "<group>"; };
 		8042195027EC9B5300658CF9 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		8042195127EC9B5300658CF9 /* MapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapVC.xib; sourceTree = "<group>"; };
+		8042195E27ECC7D700658CF9 /* PopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpVC.swift; sourceTree = "<group>"; };
+		8042195F27ECC7D700658CF9 /* PopUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpVC.xib; sourceTree = "<group>"; };
 		8069378627EB383900E2B597 /* montserrat_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = montserrat_medium.ttf; sourceTree = "<group>"; };
 		8069378727EB383900E2B597 /* montserrat_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = montserrat_regular.ttf; sourceTree = "<group>"; };
 		8069378827EB383900E2B597 /* montserrat_extra_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = montserrat_extra_bold.ttf; sourceTree = "<group>"; };
@@ -153,6 +157,7 @@
 		803DB3F227EA387A00CC5BED /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8042195527ECBD3D00658CF9 /* PopUp */,
 				8042194F27EC9B3900658CF9 /* MapView */,
 				8042194827EC917800658CF9 /* ProductDetail */,
 				803DB3F327EA389D00CC5BED /* ProductsVC.swift */,
@@ -187,6 +192,15 @@
 				8042195127EC9B5300658CF9 /* MapVC.xib */,
 			);
 			path = MapView;
+			sourceTree = "<group>";
+		};
+		8042195527ECBD3D00658CF9 /* PopUp */ = {
+			isa = PBXGroup;
+			children = (
+				8042195E27ECC7D700658CF9 /* PopUpVC.swift */,
+				8042195F27ECC7D700658CF9 /* PopUpVC.xib */,
+			);
+			path = PopUp;
 			sourceTree = "<group>";
 		};
 		8069377E27EB37DB00E2B597 /* Cell */ = {
@@ -294,6 +308,7 @@
 				803DB3E527EA35A900CC5BED /* Assets.xcassets in Resources */,
 				8069379027EB383900E2B597 /* montserrat_extra_bold.ttf in Resources */,
 				8069379927EB3BB600E2B597 /* ProductCell.xib in Resources */,
+				8042196127ECC7D700658CF9 /* PopUpVC.xib in Resources */,
 				803DB3E327EA35A800CC5BED /* Main.storyboard in Resources */,
 				8069378E27EB383900E2B597 /* montserrat_medium.ttf in Resources */,
 				8042194C27EC91B700658CF9 /* ProductDetailVC.xib in Resources */,
@@ -355,6 +370,7 @@
 				806937A027EB463900E2B597 /* UIImageView+Extension.swift in Sources */,
 				803DB3F927EA392F00CC5BED /* RequestType.swift in Sources */,
 				803DB3F727EA391D00CC5BED /* Network.swift in Sources */,
+				8042196027ECC7D700658CF9 /* PopUpVC.swift in Sources */,
 				8069379C27EB434E00E2B597 /* Int+Extension.swift in Sources */,
 				803DB3FB27EA393F00CC5BED /* HttpMethod.swift in Sources */,
 				803DB3F127EA371F00CC5BED /* BaseViewController.swift in Sources */,
