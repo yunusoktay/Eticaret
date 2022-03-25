@@ -2,7 +2,12 @@
 Shopping App
 
 ## Tech Stack
-
+* [Swift](https://www.swift.org)  
+* [Kingfisher](https://github.com/onevcat/Kingfisher)
+* [UIKit](https://developer.apple.com/documentation/uikit)
+* URLSession
+* CocoaPods
+* MapKit
 
 ## Screenshot
 
