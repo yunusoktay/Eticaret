@@ -39,6 +39,8 @@
 		8069379C27EB434E00E2B597 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069379B27EB434E00E2B597 /* Int+Extension.swift */; };
 		8069379E27EB446200E2B597 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069379D27EB446200E2B597 /* UILabel+Extension.swift */; };
 		806937A027EB463900E2B597 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069379F27EB463900E2B597 /* UIImageView+Extension.swift */; };
+		8090179A27EDA175008944B9 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8090179827EDA175008944B9 /* CartVC.swift */; };
+		8090179B27EDA175008944B9 /* CartVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8090179927EDA175008944B9 /* CartVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,8 @@
 		8069379B27EB434E00E2B597 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		8069379D27EB446200E2B597 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		8069379F27EB463900E2B597 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		8090179827EDA175008944B9 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		8090179927EDA175008944B9 /* CartVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartVC.xib; sourceTree = "<group>"; };
 		8939257103AAFB0A21537ACD /* Pods-Eticaret.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eticaret.debug.xcconfig"; path = "Target Support Files/Pods-Eticaret/Pods-Eticaret.debug.xcconfig"; sourceTree = "<group>"; };
 		DB021D07874E7C0A18ADAE3E /* Pods_Eticaret.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eticaret.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -157,6 +161,7 @@
 		803DB3F227EA387A00CC5BED /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8090179C27EDA186008944B9 /* CartVC */,
 				8042195527ECBD3D00658CF9 /* PopUp */,
 				8042194F27EC9B3900658CF9 /* MapView */,
 				8042194827EC917800658CF9 /* ProductDetail */,
@@ -238,6 +243,15 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		8090179C27EDA186008944B9 /* CartVC */ = {
+			isa = PBXGroup;
+			children = (
+				8090179827EDA175008944B9 /* CartVC.swift */,
+				8090179927EDA175008944B9 /* CartVC.xib */,
+			);
+			path = CartVC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -312,6 +326,7 @@
 				803DB3E327EA35A800CC5BED /* Main.storyboard in Resources */,
 				8069378E27EB383900E2B597 /* montserrat_medium.ttf in Resources */,
 				8042194C27EC91B700658CF9 /* ProductDetailVC.xib in Resources */,
+				8090179B27EDA175008944B9 /* CartVC.xib in Resources */,
 				8042195327EC9B5300658CF9 /* MapVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +383,7 @@
 				803DB3FD27EA395B00CC5BED /* Responses.swift in Sources */,
 				803DB3F427EA389D00CC5BED /* ProductsVC.swift in Sources */,
 				806937A027EB463900E2B597 /* UIImageView+Extension.swift in Sources */,
+				8090179A27EDA175008944B9 /* CartVC.swift in Sources */,
 				803DB3F927EA392F00CC5BED /* RequestType.swift in Sources */,
 				803DB3F727EA391D00CC5BED /* Network.swift in Sources */,
 				8042196027ECC7D700658CF9 /* PopUpVC.swift in Sources */,
