@@ -41,6 +41,11 @@
 		806937A027EB463900E2B597 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8069379F27EB463900E2B597 /* UIImageView+Extension.swift */; };
 		8090179A27EDA175008944B9 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8090179827EDA175008944B9 /* CartVC.swift */; };
 		8090179B27EDA175008944B9 /* CartVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8090179927EDA175008944B9 /* CartVC.xib */; };
+		8090179E27EDA4C9008944B9 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8090179D27EDA4C9008944B9 /* CartViewModel.swift */; };
+		809017A127EDA722008944B9 /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8090179F27EDA722008944B9 /* CartCell.swift */; };
+		809017A227EDA722008944B9 /* CartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 809017A027EDA722008944B9 /* CartCell.xib */; };
+		809017A427EDAC9F008944B9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809017A327EDAC9F008944B9 /* UIColor+Extension.swift */; };
+		809017A627EDACBA008944B9 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809017A527EDACBA008944B9 /* View+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +85,11 @@
 		8069379F27EB463900E2B597 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		8090179827EDA175008944B9 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
 		8090179927EDA175008944B9 /* CartVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartVC.xib; sourceTree = "<group>"; };
+		8090179D27EDA4C9008944B9 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		8090179F27EDA722008944B9 /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		809017A027EDA722008944B9 /* CartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartCell.xib; sourceTree = "<group>"; };
+		809017A327EDAC9F008944B9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		809017A527EDACBA008944B9 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		8939257103AAFB0A21537ACD /* Pods-Eticaret.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eticaret.debug.xcconfig"; path = "Target Support Files/Pods-Eticaret/Pods-Eticaret.debug.xcconfig"; sourceTree = "<group>"; };
 		DB021D07874E7C0A18ADAE3E /* Pods_Eticaret.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eticaret.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -213,6 +223,8 @@
 			children = (
 				8069379627EB3BB600E2B597 /* ProductCell.swift */,
 				8069379727EB3BB600E2B597 /* ProductCell.xib */,
+				8090179F27EDA722008944B9 /* CartCell.swift */,
+				809017A027EDA722008944B9 /* CartCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -239,6 +251,8 @@
 				8069379D27EB446200E2B597 /* UILabel+Extension.swift */,
 				8069379F27EB463900E2B597 /* UIImageView+Extension.swift */,
 				8042194D27EC95EC00658CF9 /* Button+Extenison.swift */,
+				809017A327EDAC9F008944B9 /* UIColor+Extension.swift */,
+				809017A527EDACBA008944B9 /* View+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -248,6 +262,7 @@
 			children = (
 				8090179827EDA175008944B9 /* CartVC.swift */,
 				8090179927EDA175008944B9 /* CartVC.xib */,
+				8090179D27EDA4C9008944B9 /* CartViewModel.swift */,
 			);
 			path = CartVC;
 			sourceTree = "<group>";
@@ -320,6 +335,7 @@
 				8069379227EB383900E2B597 /* montserrat_light.ttf in Resources */,
 				8069379327EB383900E2B597 /* montserrat_black.ttf in Resources */,
 				803DB3E527EA35A900CC5BED /* Assets.xcassets in Resources */,
+				809017A227EDA722008944B9 /* CartCell.xib in Resources */,
 				8069379027EB383900E2B597 /* montserrat_extra_bold.ttf in Resources */,
 				8069379927EB3BB600E2B597 /* ProductCell.xib in Resources */,
 				8042196127ECC7D700658CF9 /* PopUpVC.xib in Resources */,
@@ -381,11 +397,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				803DB3FD27EA395B00CC5BED /* Responses.swift in Sources */,
+				809017A127EDA722008944B9 /* CartCell.swift in Sources */,
 				803DB3F427EA389D00CC5BED /* ProductsVC.swift in Sources */,
 				806937A027EB463900E2B597 /* UIImageView+Extension.swift in Sources */,
 				8090179A27EDA175008944B9 /* CartVC.swift in Sources */,
 				803DB3F927EA392F00CC5BED /* RequestType.swift in Sources */,
 				803DB3F727EA391D00CC5BED /* Network.swift in Sources */,
+				8090179E27EDA4C9008944B9 /* CartViewModel.swift in Sources */,
 				8042196027ECC7D700658CF9 /* PopUpVC.swift in Sources */,
 				8069379C27EB434E00E2B597 /* Int+Extension.swift in Sources */,
 				803DB3FB27EA393F00CC5BED /* HttpMethod.swift in Sources */,
@@ -397,6 +415,8 @@
 				8042194E27EC95EC00658CF9 /* Button+Extenison.swift in Sources */,
 				8042194B27EC91B700658CF9 /* ProductDetailVC.swift in Sources */,
 				803DB3DE27EA35A800CC5BED /* SceneDelegate.swift in Sources */,
+				809017A627EDACBA008944B9 /* View+Extension.swift in Sources */,
+				809017A427EDAC9F008944B9 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
