@@ -20,7 +20,7 @@ class CartViewModel {
     weak var delegate: CartViewModelProtocol?
     var products = [Product]()
     
-    func getCartData() {
+    func fetchCartData() {
         network.request(with: .cart) { (result: Result<BaseResponse<CartResponse>, CustomError>) in
             switch result {
             case .success(_):

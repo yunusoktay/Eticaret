@@ -24,10 +24,10 @@ class ProductsVC: BaseViewController {
         let nib = UINib(nibName: "ProductCell", bundle: Bundle(for: ProductCell.self))
         collectionView.register(nib, forCellWithReuseIdentifier: ProductCell.id)
         
-        getData()
+        fetchProducts()
     }
     
-    func getData() {
+    func fetchProducts() {
         Network().request(with: .products) { (result: (Result<BaseResponse<[Product]>, CustomError>)) in
             switch result {
             case .success(let response):

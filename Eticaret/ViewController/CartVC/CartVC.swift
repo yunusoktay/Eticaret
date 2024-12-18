@@ -25,7 +25,7 @@ class CartVC: BaseViewController {
         tableView.delegate = self
         tableView.dataSource = self
         
-        viewModel.getCartData()
+        viewModel.fetchCartData()
     }
 
     @IBAction func buyAction(_ sender: Any) {
